@@ -20,7 +20,7 @@ jobs:
           java-version: '17'
 
       - name: Android SDK einrichten
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Gradle einrichten
         uses: gradle/actions/setup-gradle@v4
