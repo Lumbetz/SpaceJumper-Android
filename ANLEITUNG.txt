@@ -1,0 +1,16 @@
+SpaceJumper fuer Android (Android-Studio-Projekt)
+
+Enthalten ist das vollstaendige aktuelle HTML-Spiel als Offline-Android-App.
+
+APK auf Windows erstellen:
+1. Android Studio von https://developer.android.com/studio installieren.
+2. Android Studio starten und "Open" auswaehlen.
+3. Den entpackten Ordner "SpaceJumper_Android_Studio" oeffnen.
+4. Einmalig die Gradle-Synchronisierung und eventuelle SDK-Installationen zulassen (Internet erforderlich).
+5. Oben unter "Build" > "Build Bundle(s) / APK(s)" > "Build APK(s)" anklicken.
+6. APK unter app/build/outputs/apk/debug/app-debug.apk finden.
+7. APK auf Android-Smartphone uebertragen und installieren.
+
+Wichtig: Die APK wurde hier noch nicht kompiliert, weil die Android-SDK-Buildtools in der Umgebung nicht vorhanden sind. Das Projekt ist zum Build in Android Studio vorbereitet.
+
+Hinweis: Neue Spielversionen muessen fuer diese Offline-APK neu eingebaut und erneut als APK erstellt werden. Fuer automatische Online-Updates eignet sich die bestehende GitHub-Pages-Web-App besser.

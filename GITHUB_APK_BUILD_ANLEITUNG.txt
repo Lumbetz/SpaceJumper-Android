@@ -1,0 +1,14 @@
+SpaceJumper APK automatisch mit GitHub Actions erstellen
+
+1. GitHub: NEUES Repository erstellen, z.B. SpaceJumper-Android (nicht den GitHub-Pages-Spielordner überschreiben).
+2. Die entpackten Projektdateien inklusive des versteckten Ordners .github hochladen.
+   Wichtig: Die Dateien build.gradle, settings.gradle und der app-Ordner müssen direkt im Repository liegen.
+   Hinweis: In Windows versteckte Dateien anzeigen, damit du den .github-Ordner mit hochlädst.
+3. Commit changes.
+4. Im GitHub-Repository auf Actions klicken, Workflow 'SpaceJumper Android APK' auswählen.
+5. Rechts 'Run workflow' -> 'Run workflow' anklicken.
+6. Den Lauf öffnen und nach erfolgreichem Abschluss unter Artifacts 'SpaceJumper-Android-APK' herunterladen.
+7. ZIP mit der APK entpacken. Auf Android 'app-debug.apk' installieren (ggf. Installation aus dieser Quelle zulassen).
+
+Achtung: Das APK wird erst durch GitHub Actions erstellt. Dieses Paket enthält noch keine APK.
+Für die erste Veröffentlichung den Debug-Build benutzen. Keine Store-/Release-Signatur enthalten.
